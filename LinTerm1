@@ -1,0 +1,260 @@
+arsene@arsene-ThinkPad-T440p:~/WCS/initiation-javascript-template$ cd ~
+arsene@arsene-ThinkPad-T440p:~$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+arsene@arsene-ThinkPad-T440p:~$ ls
+Bureau  Documents  eclipse  eclipse-jee-2019-09-R-linux-gtk-x86_64  examples.desktop  Images  Modèles  Musique  Public  quetes  Téléchargements  Vidéos  VSC  WCS
+arsene@arsene-ThinkPad-T440p:~$ ls .
+Bureau  Documents  eclipse  eclipse-jee-2019-09-R-linux-gtk-x86_64  examples.desktop  Images  Modèles  Musique  Public  quetes  Téléchargements  Vidéos  VSC  WCS
+arsene@arsene-ThinkPad-T440p:~$ ls -a
+.              Bureau     .eclipse                                .gnupg         Modèles   .profile                   .swt             VSC
+..             .cache     eclipse-jee-2019-09-R-linux-gtk-x86_64  .ICEauthority  .mozilla  Public                     Téléchargements  .vscode
+.bash_history  .config    examples.desktop                        Images         Musique   quetes                     .thunderbird     WCS
+.bash_logout   Documents  .gconf                                  .java          .p2       .ssh                       .tooling         .webclipse
+.bashrc        eclipse    .gitconfig                              .local         .pki      .sudo_as_admin_successful  Vidéos
+arsene@arsene-ThinkPad-T440p:~$ ls Images
+arsene@arsene-ThinkPad-T440p:~$ ls /home/arsene
+Bureau  Documents  eclipse  eclipse-jee-2019-09-R-linux-gtk-x86_64  examples.desktop  Images  Modèles  Musique  Public  quetes  Téléchargements  Vidéos  VSC  WCS
+arsene@arsene-ThinkPad-T440p:~$ ls /home
+arsene
+arsene@arsene-ThinkPad-T440p:~$ ls ..
+arsene
+arsene@arsene-ThinkPad-T440p:~$ ls /bin
+bash          chgrp          efibootdump  journalctl  mkdir          ntfscat        ping4      sh.distrib                systemd-tty-ask-password-agent  zcmp
+brltty        chmod          efibootmgr   kbd_mode    mknod          ntfscluster    ping6      sleep                     tar                             zdiff
+bunzip2       chown          egrep        kill        mktemp         ntfscmp        plymouth   ss                        tempfile                        zegrep
+busybox       chvt           false        kmod        more           ntfsfallocate  ps         static-sh                 touch                           zfgrep
+bzcat         cp             fgconsole    less        mount          ntfsfix        pwd        stty                      true                            zforce
+bzcmp         cpio           fgrep        lessecho    mountpoint     ntfsinfo       rbash      su                        udevadm                         zgrep
+bzdiff        dash           findmnt      lessfile    mt             ntfsls         readlink   sync                      ulockmgr_server                 zless
+bzegrep       date           fuser        lesskey     mt-gnu         ntfsmove       red        systemctl                 umount                          zmore
+bzexe         dd             fusermount   lesspipe    mv             ntfsrecover    rm         systemd                   uname                           znew
+bzfgrep       df             getfacl      ln          nano           ntfssecaudit   rmdir      systemd-ask-password      uncompress
+bzgrep        dir            grep         loadkeys    nc             ntfstruncate   rnano      systemd-escape            unicode_start
+bzip2         dmesg          gunzip       login       nc.openbsd     ntfsusermap    run-parts  systemd-hwdb              vdir
+bzip2recover  dnsdomainname  gzexe        loginctl    netcat         ntfswipe       sed        systemd-inhibit           wdctl
+bzless        domainname     gzip         lowntfs-3g  networkctl     open           setfacl    systemd-machine-id-setup  which
+bzmore        dumpkeys       hciconfig    ls          nisdomainname  openvt         setfont    systemd-notify            whiptail
+cat           echo           hostname     lsblk       ntfs-3g        pidof          setupcon   systemd-sysusers          ypdomainname
+chacl         ed             ip           lsmod       ntfs-3g.probe  ping           sh         systemd-tmpfiles          zcat
+arsene@arsene-ThinkPad-T440p:~$ 
+arsene@arsene-ThinkPad-T440p:~$ ls -l /bin
+total 12480
+-rwxr-xr-x 1 root root 1113504 juin   7 00:28 bash
+-rwxr-xr-x 1 root root  748968 août  29  2018 brltty
+-rwxr-xr-x 1 root root   34888 juil.  4 14:35 bunzip2
+-rwxr-xr-x 1 root root 2062296 mars   6  2019 busybox
+-rwxr-xr-x 1 root root   34888 juil.  4 14:35 bzcat
+lrwxrwxrwx 1 root root       6 oct.   2 13:40 bzcmp -> bzdiff
+-rwxr-xr-x 1 root root    2140 juil.  4 14:35 bzdiff
+lrwxrwxrwx 1 root root       6 oct.   2 13:40 bzegrep -> bzgrep
+-rwxr-xr-x 1 root root    4877 juil.  4 14:35 bzexe
+lrwxrwxrwx 1 root root       6 oct.   2 13:40 bzfgrep -> bzgrep
+-rwxr-xr-x 1 root root    3642 juil.  4 14:35 bzgrep
+-rwxr-xr-x 1 root root   34888 juil.  4 14:35 bzip2
+-rwxr-xr-x 1 root root   14328 juil.  4 14:35 bzip2recover
+lrwxrwxrwx 1 root root       6 oct.   2 13:40 bzless -> bzmore
+-rwxr-xr-x 1 root root    1297 juil.  4 14:35 bzmore
+-rwxr-xr-x 1 root root   35064 janv. 18  2018 cat
+-rwxr-xr-x 1 root root   14328 avril 21  2017 chacl
+-rwxr-xr-x 1 root root   63672 janv. 18  2018 chgrp
+-rwxr-xr-x 1 root root   59608 janv. 18  2018 chmod
+-rwxr-xr-x 1 root root   67768 janv. 18  2018 chown
+-rwxr-xr-x 1 root root   10312 janv. 22  2018 chvt
+-rwxr-xr-x 1 root root  141528 janv. 18  2018 cp
+-rwxr-xr-x 1 root root  157224 déc.   2  2017 cpio
+-rwxr-xr-x 1 root root  121432 janv. 25  2018 dash
+-rwxr-xr-x 1 root root  100568 janv. 18  2018 date
+-rwxr-xr-x 1 root root   76000 janv. 18  2018 dd
+-rwxr-xr-x 1 root root   84776 janv. 18  2018 df
+-rwxr-xr-x 1 root root  133792 janv. 18  2018 dir
+-rwxr-xr-x 1 root root   72000 août  23 01:47 dmesg
+lrwxrwxrwx 1 root root       8 oct.   2 13:40 dnsdomainname -> hostname
+lrwxrwxrwx 1 root root       8 oct.   2 13:40 domainname -> hostname
+-rwxr-xr-x 1 root root  170520 janv. 22  2018 dumpkeys
+-rwxr-xr-x 1 root root   35000 janv. 18  2018 echo
+-rwxr-xr-x 1 root root   51512 avril 26  2016 ed
+-rwxr-xr-x 1 root root   18424 avril 21  2017 efibootdump
+-rwxr-xr-x 1 root root   40056 avril 21  2017 efibootmgr
+-rwxr-xr-x 1 root root      28 sept. 18 17:00 egrep
+-rwxr-xr-x 1 root root   30904 janv. 18  2018 false
+-rwxr-xr-x 1 root root   10312 janv. 22  2018 fgconsole
+-rwxr-xr-x 1 root root      28 sept. 18 17:00 fgrep
+-rwxr-xr-x 1 root root   64784 août  23 01:47 findmnt
+-rwxr-xr-x 1 root root   35928 déc.  11  2018 fuser
+-rwsr-xr-x 1 root root   30800 août  11  2016 fusermount
+-rwxr-xr-x 1 root root   23160 avril 21  2017 getfacl
+-rwxr-xr-x 1 root root  219456 sept. 18 17:00 grep
+-rwxr-xr-x 1 root root    2301 avril 28  2017 gunzip
+-rwxr-xr-x 1 root root    5927 avril 28  2017 gzexe
+-rwxr-xr-x 1 root root  101560 avril 28  2017 gzip
+-rwxr-xr-x 1 root root  196632 juin  22  2018 hciconfig
+-rwxr-xr-x 1 root root   18504 janv. 31  2018 hostname
+-rwxr-xr-x 1 root root  554104 févr. 26  2018 ip
+-rwxr-xr-x 1 root root   63576 sept.  5 05:59 journalctl
+-rwxr-xr-x 1 root root   10312 janv. 22  2018 kbd_mode
+-rwxr-xr-x 1 root root   26704 août   9 17:37 kill
+-rwxr-xr-x 1 root root  149688 nov.  12  2018 kmod
+-rwxr-xr-x 1 root root  170760 déc.   1  2017 less
+-rwxr-xr-x 1 root root   10256 déc.   1  2017 lessecho
+lrwxrwxrwx 1 root root       8 oct.   2 13:40 lessfile -> lesspipe
+-rwxr-xr-x 1 root root   19856 déc.   1  2017 lesskey
+-rwxr-xr-x 1 root root    8564 déc.   1  2017 lesspipe
+-rwxr-xr-x 1 root root   67808 janv. 18  2018 ln
+-rwxr-xr-x 1 root root  211528 janv. 22  2018 loadkeys
+-rwxr-xr-x 1 root root   52664 mars  22  2019 login
+-rwxr-xr-x 1 root root   51280 sept.  5 05:59 loginctl
+-rwxr-xr-x 1 root root  109232 mars  21  2019 lowntfs-3g
+-rwxr-xr-x 1 root root  133792 janv. 18  2018 ls
+-rwxr-xr-x 1 root root   84048 août  23 01:47 lsblk
+lrwxrwxrwx 1 root root       4 oct.   2 13:40 lsmod -> kmod
+-rwxr-xr-x 1 root root   80056 janv. 18  2018 mkdir
+-rwxr-xr-x 1 root root   67768 janv. 18  2018 mknod
+-rwxr-xr-x 1 root root   43192 janv. 18  2018 mktemp
+-rwxr-xr-x 1 root root   38952 août  23 01:47 more
+-rwsr-xr-x 1 root root   43088 août  23 01:47 mount
+-rwxr-xr-x 1 root root   14408 août  23 01:47 mountpoint
+lrwxrwxrwx 1 root root      20 oct.   2 13:40 mt -> /etc/alternatives/mt
+-rwxr-xr-x 1 root root   80512 déc.   2  2017 mt-gnu
+-rwxr-xr-x 1 root root  137440 janv. 18  2018 mv
+-rwxr-xr-x 1 root root  245872 mars   6  2018 nano
+lrwxrwxrwx 1 root root      20 oct.   2 13:40 nc -> /etc/alternatives/nc
+-rwxr-xr-x 1 root root   35312 mai   14  2018 nc.openbsd
+lrwxrwxrwx 1 root root      24 oct.   2 13:40 netcat -> /etc/alternatives/netcat
+-rwxr-xr-x 1 root root   43080 sept.  5 05:59 networkctl
+lrwxrwxrwx 1 root root       8 oct.   2 13:40 nisdomainname -> hostname
+-rwxr-xr-x 1 root root  146128 mars  21  2019 ntfs-3g
+-rwxr-xr-x 1 root root   10312 mars  21  2019 ntfs-3g.probe
+-rwxr-xr-x 1 root root   26728 mars  21  2019 ntfscat
+-rwxr-xr-x 1 root root   34920 mars  21  2019 ntfscluster
+-rwxr-xr-x 1 root root   34920 mars  21  2019 ntfscmp
+-rwxr-xr-x 1 root root   34928 mars  21  2019 ntfsfallocate
+-rwxr-xr-x 1 root root   43120 mars  21  2019 ntfsfix
+-rwxr-xr-x 1 root root   55416 mars  21  2019 ntfsinfo
+-rwxr-xr-x 1 root root   31928 mars  21  2019 ntfsls
+-rwxr-xr-x 1 root root   30824 mars  21  2019 ntfsmove
+-rwxr-xr-x 1 root root  116840 mars  21  2019 ntfsrecover
+-rwxr-xr-x 1 root root   88672 mars  21  2019 ntfssecaudit
+-rwxr-xr-x 1 root root   38944 mars  21  2019 ntfstruncate
+-rwxr-xr-x 1 root root   30744 mars  21  2019 ntfsusermap
+-rwxr-xr-x 1 root root   47752 mars  21  2019 ntfswipe
+lrwxrwxrwx 1 root root       6 oct.   2 13:40 open -> openvt
+-rwxr-xr-x 1 root root   18872 janv. 22  2018 openvt
+lrwxrwxrwx 1 root root      14 oct.   2 13:40 pidof -> /sbin/killall5
+-rwsr-xr-x 1 root root   64424 juin  28 13:05 ping
+lrwxrwxrwx 1 root root       4 oct.   2 13:40 ping4 -> ping
+lrwxrwxrwx 1 root root       4 oct.   2 13:40 ping6 -> ping
+-rwxr-xr-x 1 root root   38904 avril  4  2019 plymouth
+-rwxr-xr-x 1 root root  133432 août   9 17:37 ps
+-rwxr-xr-x 1 root root   35000 janv. 18  2018 pwd
+lrwxrwxrwx 1 root root       4 oct.   2 13:40 rbash -> bash
+-rwxr-xr-x 1 root root   43192 janv. 18  2018 readlink
+-rwxr-xr-x 1 root root      89 avril 26  2016 red
+-rwxr-xr-x 1 root root   63704 janv. 18  2018 rm
+-rwxr-xr-x 1 root root   43192 janv. 18  2018 rmdir
+lrwxrwxrwx 1 root root       4 oct.   2 13:40 rnano -> nano
+-rwxr-xr-x 1 root root   18760 déc.  30  2017 run-parts
+-rwxr-xr-x 1 root root  109000 janv. 30  2018 sed
+-rwxr-xr-x 1 root root   35512 avril 21  2017 setfacl
+-rwxr-xr-x 1 root root   43144 janv. 22  2018 setfont
+-rwxr-xr-x 1 root root   39103 avril 23 14:04 setupcon
+lrwxrwxrwx 1 root root       4 oct.   2 13:40 sh -> dash
+lrwxrwxrwx 1 root root       4 oct.   2 13:40 sh.distrib -> dash
+-rwxr-xr-x 1 root root   35000 janv. 18  2018 sleep
+-rwxr-xr-x 1 root root  139904 févr. 26  2018 ss
+lrwxrwxrwx 1 root root       7 oct.   2 13:40 static-sh -> busybox
+-rwxr-xr-x 1 root root   75992 janv. 18  2018 stty
+-rwsr-xr-x 1 root root   44664 mars  22  2019 su
+-rwxr-xr-x 1 root root   35000 janv. 18  2018 sync
+-rwxr-xr-x 1 root root  182352 sept.  5 05:59 systemctl
+lrwxrwxrwx 1 root root      20 sept.  5 05:59 systemd -> /lib/systemd/systemd
+-rwxr-xr-x 1 root root   10320 sept.  5 05:59 systemd-ask-password
+-rwxr-xr-x 1 root root   14400 sept.  5 05:59 systemd-escape
+-rwxr-xr-x 1 root root   84328 sept.  5 05:59 systemd-hwdb
+-rwxr-xr-x 1 root root   14416 sept.  5 05:59 systemd-inhibit
+-rwxr-xr-x 1 root root   18496 sept.  5 05:59 systemd-machine-id-setup
+-rwxr-xr-x 1 root root   14408 sept.  5 05:59 systemd-notify
+-rwxr-xr-x 1 root root   43080 sept.  5 05:59 systemd-sysusers
+-rwxr-xr-x 1 root root   71752 sept.  5 05:59 systemd-tmpfiles
+-rwxr-xr-x 1 root root   26696 sept.  5 05:59 systemd-tty-ask-password-agent
+-rwxr-xr-x 1 root root  423312 janv. 21  2019 tar
+-rwxr-xr-x 1 root root   10104 déc.  30  2017 tempfile
+-rwxr-xr-x 1 root root   88280 janv. 18  2018 touch
+-rwxr-xr-x 1 root root   30904 janv. 18  2018 true
+-rwxr-xr-x 1 root root  584072 sept.  5 05:59 udevadm
+-rwxr-xr-x 1 root root   14328 août  11  2016 ulockmgr_server
+-rwsr-xr-x 1 root root   26696 août  23 01:47 umount
+-rwxr-xr-x 1 root root   35032 janv. 18  2018 uname
+-rwxr-xr-x 1 root root    2301 avril 28  2017 uncompress
+-rwxr-xr-x 1 root root    2762 janv. 22  2018 unicode_start
+-rwxr-xr-x 1 root root  133792 janv. 18  2018 vdir
+-rwxr-xr-x 1 root root   30800 août  23 01:47 wdctl
+-rwxr-xr-x 1 root root     946 déc.  30  2017 which
+-rwxr-xr-x 1 root root   26632 janv. 12  2018 whiptail
+lrwxrwxrwx 1 root root       8 oct.   2 13:40 ypdomainname -> hostname
+-rwxr-xr-x 1 root root    1937 avril 28  2017 zcat
+-rwxr-xr-x 1 root root    1777 avril 28  2017 zcmp
+-rwxr-xr-x 1 root root    5764 avril 28  2017 zdiff
+-rwxr-xr-x 1 root root     140 avril 28  2017 zegrep
+-rwxr-xr-x 1 root root     140 avril 28  2017 zfgrep
+-rwxr-xr-x 1 root root    2131 avril 28  2017 zforce
+-rwxr-xr-x 1 root root    5938 avril 28  2017 zgrep
+-rwxr-xr-x 1 root root    2037 avril 28  2017 zless
+-rwxr-xr-x 1 root root    1910 avril 28  2017 zmore
+-rwxr-xr-x 1 root root    5047 avril 28  2017 znew
+arsene@arsene-ThinkPad-T440p:~$ pwd
+/home/arsene
+arsene@arsene-ThinkPad-T440p:~$ cd Images
+arsene@arsene-ThinkPad-T440p:~/Images$ cd..
+cd.. : commande introuvable
+arsene@arsene-ThinkPad-T440p:~/Images$ cd ..
+arsene@arsene-ThinkPad-T440p:~$ cd /opt
+arsene@arsene-ThinkPad-T440p:/opt$ cd ../home/arsene
+arsene@arsene-ThinkPad-T440p:~$ cd ../usr/bin
+bash: cd: ../usr/bin: Aucun fichier ou dossier de ce type
+arsene@arsene-ThinkPad-T440p:~$ cd /usr/bin
+arsene@arsene-ThinkPad-T440p:/usr/bin$ cd
+arsene@arsene-ThinkPad-T440p:~$ cd ~
+arsene@arsene-ThinkPad-T440p:~$ cd ~/Musique
+arsene@arsene-ThinkPad-T440p:~/Musique$ 
